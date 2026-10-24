@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Compiler"
+  short_description: "Precise Persian-to-English prompts for coding agents"
+  default_prompt: "Use $prompt-compiler to turn my Persian software-engineering request into a precise executable English prompt. Preserve all requirements and prohibitions, separate assumptions and optional suggestions, and provide a faithful Persian equivalent when useful."
+
+policy:
+  allow_implicit_invocation: true
